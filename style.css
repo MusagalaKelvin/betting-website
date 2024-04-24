@@ -1,0 +1,89 @@
+      /* Other styles */
+      .mus {
+        margin: 0 auto; /* Center content horizontally */
+        max-width: 100%; /* Ensure content doesn't exceed device width */
+        padding: 0 10px; /* Add small margin on left and right */
+      }
+
+      .mt-9 {
+        border-radius: 10px; /* Apply border radius */
+        overflow: hidden; /* Ensure content doesn't overflow */
+      }
+
+      @media (max-width: 768px) { /* Adjust for mobile screens */
+        .mus {
+          width: calc(100% - 20px); /* Set width to fit within device width */
+          margin: 0 auto; /* Center horizontally */
+        }
+      }
+/* Reset default browser styles (optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the base font size for a consistent starting point */
+  body {
+    font-size: 16px; /* Adjust as needed */
+    font-family: Arial, sans-serif; /* Choose a preferred font stack */
+  }
+  
+  /* Set base styles for common HTML elements */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1.5em 0;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 1em 0;
+  }
+  
+  a {
+    color: #007bff; /* Adjust link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.2s ease-in-out; /* Smooth hover effect (optional) */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Adjust link hover color */
+  }
+  
+  img {
+    max-width: 100%; /* Scale images to fit containers */
+    height: auto;
+  }
+  /*Sticky header */
+  .navbar-fixed-top {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+/*     z-index: 1; */
+  background: white;
+}
+
+.navbar-fixed-top.cbp-af-header-shrink {
+	padding: 10px 0;
+}
+
+
+  li {
+    margin: 0.5em 0;
+  }
+   /* Add basic styling for containers */
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
